@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.musictest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="PLAYLIST">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KhalidActivity"
+            android:label="Khalid" />
+        <activity
+            android:name=".JuiceActivity"
+            android:label="Juice WRLD" />
+        <activity
+            android:name=".BillieActivity"
+            android:label="Billie Eilish" />
+        <activity
+            android:name=".XXXActivity"
+            android:label="XXXTENTACION" />
+        <activity android:name=".FullFunction"></activity>
+    </application>
+
+</manifest>

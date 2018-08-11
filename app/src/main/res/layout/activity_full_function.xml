@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullFunction">
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/album_cover2"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+        <TextView
+            android:id="@+id/song_name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="SAD!"
+            android:textAllCaps="true"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:id="@+id/album_name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Question"
+            android:textAllCaps="true"
+            android:textSize="40sp"/>
+
+    </ViewFlipper>
+
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="SAD!"
+        android:textAllCaps="true"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/album_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Question"
+        android:textAllCaps="true"
+        android:textSize="40sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/previous_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous" />
+
+        <Button
+            android:id="@+id/next_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next" />
+
+        <Button
+            android:id="@+id/main_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main Menu" />
+    </LinearLayout>
+
+
+</LinearLayout>

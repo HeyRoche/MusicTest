@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/xxx"
+        style="@style/CategoryStyle"
+        android:text="XXXTENTACION" />
+
+    <TextView
+        android:id="@+id/khalid"
+        style="@style/CategoryStyle"
+        android:text="Khalid" />
+
+    <TextView
+        android:id="@+id/juice"
+        style="@style/CategoryStyle"
+        android:text="Juice WRLD" />
+
+    <TextView
+        android:id="@+id/billie"
+        style="@style/CategoryStyle"
+        android:text="Billie Eilish" />
+
+</LinearLayout>
